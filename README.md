@@ -1,6 +1,6 @@
 # 介绍
-这是一个帮助sketchup用户导出给stable diffusion使用的预处理脚本。
-一键操作
+这是一个帮助 sketchup 用户使用 stable diffusion 工作流的预处理脚本，可导出给 stable diffusion 使用的图片。
+可一键操作
 --导入语义分割图层
 --导出当前视图的图片
 --导出线稿图
