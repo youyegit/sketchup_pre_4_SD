@@ -1,8 +1,29 @@
 def load_items(submenu, mytoolbar)
     # 加载ade20k.csv导入图层
-    Sketchup.load File.join(SUB_MENU_DIR, 'ade20k_csv_import_layer')
-    cmd1 = UI::Command.new('一键导入语义分割图层') {
-      import_layer_main()
+    Sketchup.load File.join(SUB_MENU_DIR, 'csv_import_layer')
+    cmd1_1 = UI::Command.new('一键导入ade语义分割图层(150个)') {
+      import_layer_ade_main()
+    }
+    cmd1_2 = UI::Command.new('一键导入coco语义分割图层(133个)') {
+        import_layer_coco_main()
+      }
+    cmd1_3_1 = UI::Command.new('一键导入自定义语义分割图层-1') {
+    import_layer_custom_1_main()
+    }
+    cmd1_3_2 = UI::Command.new('一键导入自定义语义分割图层-2') {
+    import_layer_custom_2_main()
+    }
+    cmd1_3_3 = UI::Command.new('一键导入自定义语义分割图层-3') {
+      import_layer_custom_3_main()
+    }
+    cmd1_3_4 = UI::Command.new('一键导入自定义语义分割图层-4') {
+    import_layer_custom_4_main()
+    }
+    cmd1_3_5 = UI::Command.new('一键导入自定义语义分割图层-5') {
+    import_layer_custom_5_main()
+    }
+    cmd1_3_6 = UI::Command.new('一键导入自定义语义分割图层-6') {
+      import_layer_custom_6_main()
     }
     
     Sketchup.load File.join(SUB_MENU_DIR, 'one_click_export_pic_by_styles')
@@ -47,7 +68,15 @@ def load_items(submenu, mytoolbar)
     cmd3.large_icon = "icon/icon_large_3.png" # 大尺寸
 
     # 加入子菜单
-    submenu.add_item(cmd1)
+    submenu.add_item(cmd1_1)
+    submenu.add_item(cmd1_2)
+    submenu.add_item(cmd1_3_1)
+    submenu.add_item(cmd1_3_2)
+    submenu.add_item(cmd1_3_3)
+    submenu.add_item(cmd1_3_4)
+    submenu.add_item(cmd1_3_5)
+    submenu.add_item(cmd1_3_6)
+
     submenu.add_item(cmd2_1)
     submenu.add_item(cmd2_2)
     submenu.add_item(cmd2_plus)

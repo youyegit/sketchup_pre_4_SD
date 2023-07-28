@@ -154,7 +154,7 @@ def export_layer_colors_main()
   model = Sketchup.active_model # 获取当前活动模型
   # 这个样式名称最好导出的时候就确定了，跟sketchup里的名称一致，
   # 否则就算文件名改了，后续加载还是原来的
-  style_name = 'OnlyTagColorsDisplayed'
+  style_name = 'OnlyTagColorsDisplayedAddSky'
   shadow_info_input = {
     "DisplayShadows" => false,
     "UseSunForAllShading" => true,

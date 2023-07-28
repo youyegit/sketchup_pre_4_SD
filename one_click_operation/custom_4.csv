@@ -1,0 +1,47 @@
+180,120,120,建筑、大厦,building;edifice,#B47878
+120,120,120,墙,wall,#787878
+137,54,74,墙-砖材质,wall-brick,#89364A
+135,158,223,墙-石头材质,wall-stone,#879EDF
+7,246,231,墙-瓷砖材质,wall-tile,#07F6E7
+107,255,200,墙-木质材质,wall-wood,#6BFFC8
+230,230,230,玻璃、窗户,windowpane;window,#E6E6E6
+183,121,142,百叶窗,window-blind,#B7798E
+8,255,51,门、双开门,door;double door,#08FF33
+80,50,50,地板,floor;flooring,#503232
+120,120,80,天花板、吊顶,ceiling,#787850
+255,8,41,柱子、罗马柱,column;pillar,#FF0829
+51,0,255,杆子、柱子,pole,#3300FF
+255,224,0,楼梯、踏步,stairs;steps,#FFE000
+255,122,8,基础、底座,base;pedestal;stand,#FF7A08
+255,61,6,栏杆、轨道,railing;rail,#FF3D06
+255,184,6,栅栏、围栏,fence;fencing,#FFB806
+0,255,163,自动扶梯、扶梯,escalator;moving;staircase;moving;stairway,#00FFA3
+140,140,140,路、道路,road;route,#8C8C8C
+235,255,7,人行道,sidewalk;pavement,#EBFF07
+61,230,250,水,water,#3DE6FA
+255,255,255,雪,snow,#FFFFFF
+0,224,255,瀑布,waterfall;falls,#00E0FF
+150,5,61,人,person;individual;someone;somebody;mortal;soul,#96053D
+0,102,200,车、汽车,car;auto;automobile;machine;motorcar,#0066C8
+255,245,0,自行车,bicycle;bike;wheel;cycle,#FFF500
+4,200,3,树、树木,tree,#04C803
+4,250,7,草,grass,#04FA07
+255,0,0,花,flower,#FF0000
+204,255,4,植物,plant;flora;plant;life,#CCFF04
+224,255,8,灯,lamp,#E0FF08
+255,173,0,光、光源,light;light source,#FFAD00
+0,71,255,路灯,streetlight;street;lamp,#0047FF
+250,170,30,交通灯,traffic light,#FAAA1E
+255,235,0,大船,ship,#FFEB00
+0,0,192,船,boat,#0000C0
+255,5,153,招牌、布告板,signboard;sign,#FF0599
+255,41,10,岩石、石头,rock;stone,#FF290A
+255,82,0,桥,bridge;span,#FF5200
+0,194,255,土地,land;ground;soil,#00C2FF
+143,255,140,山、山脉,mountain;mount,#8FFF8C
+255,102,0,山丘、小山、土堆,hill,#FF6600
+160,150,20,沙漠、沙堆,sand,#A09614
+0,255,61,遮阳蓬、遮阳伞,awning;sunshade;sunblind,#00FF3D
+31,255,0,看台,grandstand;covered;stand,#1FFF00
+153,255,0,飞机跑道、T台,runway,#99FF00
+0,0,255,陈列橱窗、玻璃橱窗,case;display;case;showcase;vitrine,#0000FF

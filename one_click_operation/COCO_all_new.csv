@@ -1,0 +1,133 @@
+220,20,60,人,person,#DC143C
+119,11,32,自行车,bicycle,#770B20
+0,0,142,汽车,car,#00008E
+0,0,230,摩托车,motorcycle,#0000E6
+106,0,228,飞机,airplane,#6A00E4
+0,60,100,公共汽车,bus,#003C64
+0,80,100,火车,train,#005064
+0,0,70,卡车,truck,#000046
+0,0,192,船,boat,#0000C0
+250,170,30,交通灯,traffic light,#FAAA1E
+100,170,30,消防栓,fire hydrant,#64AA1E
+220,220,0,停车标志,stop sign,#DCDC00
+175,116,175,停车计时器,parking meter,#AF74AF
+250,0,30,长凳,bench,#FA001E
+165,42,42,鸟,bird,#A52A2A
+255,77,255,猫,cat,#FF4DFF
+0,226,252,狗,dog,#00E2FC
+182,182,255,马,horse,#B6B6FF
+0,82,0,羊,sheep,#005200
+120,166,157,母牛,cow,#78A69D
+110,76,0,大象,elephant,#6E4C00
+174,57,255,熊,bear,#AE39FF
+199,100,0,斑马,zebra,#C76400
+72,0,118,长颈鹿,giraffe,#480076
+255,179,240,背包,backpack,#FFB3F0
+0,125,92,雨伞,umbrella,#007D5C
+209,0,151,手提包,handbag,#D10097
+188,208,182,领带,tie,#BCD0B6
+0,220,176,手提箱,suitcase,#00DCB0
+255,99,164,飞盘,frisbee,#FF63A4
+92,0,73,滑雪板(双板),skis,#5C0049
+133,129,255,滑雪板（单板）,snowboard,#8581FF
+78,180,255,运动用球,sports ball,#4EB4FF
+0,228,0,风筝,kite,#00E400
+174,255,243,棒球棒,baseball bat,#AEFFF3
+45,89,255,棒球手套,baseball glove,#2D59FF
+134,134,103,滑板,skateboard,#868667
+145,148,174,冲浪板,surfboard,#9194AE
+255,208,186,网球拍,tennis racket,#FFD0BA
+197,226,255,瓶子,bottle,#C5E2FF
+171,134,1,酒杯,wine glass,#AB8601
+109,63,54,杯子,cup,#6D3F36
+207,138,255,叉,fork,#CF8AFF
+151,0,95,刀,knife,#97005F
+9,80,61,勺子,spoon,#09503D
+84,105,51,碗,bowl,#546933
+74,65,105,香蕉,banana,#4A4169
+166,196,102,苹果,apple,#A6C466
+208,195,210,三明治,sandwich,#D0C3D2
+255,109,65,橙色,orange,#FF6D41
+0,143,149,西兰花,broccoli,#008F95
+179,0,194,胡萝卜,carrot,#B300C2
+209,99,106,热狗,hot dog,#D1636A
+5,121,0,披萨,pizza,#057900
+227,255,205,甜甜圈,donut,#E3FFCD
+147,186,208,糕饼,cake,#93BAD0
+153,69,1,椅子,chair,#994501
+3,95,161,沙发,couch,#035FA1
+163,255,0,盆栽植物,potted plant,#A3FF00
+119,0,170,床,bed,#7700AA
+0,182,199,餐桌,dining table,#00B6C7
+0,165,120,坐便器,toilet,#00A578
+183,130,88,电视,tv,#B78258
+95,32,0,笔记本电脑,laptop,#5F2000
+130,114,135,老鼠,mouse,#827287
+110,129,133,远程/遥控,remote,#6E8185
+166,74,118,键盘,keyboard,#A64A76
+219,142,185,手机,cell phone,#DB8EB9
+79,210,114,微波炉,microwave,#4FD272
+178,90,62,烤箱,oven,#B25A3E
+65,70,15,烤面包机,toaster,#41460F
+127,167,115,水槽,sink,#7FA773
+59,105,106,冰箱,refrigerator,#3B696A
+142,108,45,书,book,#8E6C2D
+196,172,0,时钟,clock,#C4AC00
+95,54,80,花瓶,vase,#5F3650
+128,76,255,剪刀,scissors,#804CFF
+201,57,1,泰迪熊,teddy bear,#C93901
+246,0,122,吹风机,hair drier,#F6007A
+191,162,208,牙刷,toothbrush,#BFA2D0
+255,255,128,横幅,banner,#FFFF80
+147,211,203,毯子,blanket,#93D3CB
+150,100,100,桥,bridge,#966464
+168,171,172,硬纸板,cardboard,#A8ABAC
+146,112,198,柜台,counter,#9270C6
+210,170,100,窗帘,curtain,#D2AA64
+92,136,89,门上的东西,door-stuff,#5C8859
+218,88,184,木地板,floor-wood,#DA58B8
+241,129,0,花,flower,#F18100
+217,17,255,水果,fruit,#D911FF
+124,74,181,沙砾,gravel,#7C4AB5
+70,70,70,房屋,house,#464646
+255,228,255,光,light,#FFE4FF
+154,208,0,镜子里的东西,mirror-stuff,#9AD000
+193,0,92,网络,net,#C1005C
+76,91,113,枕头,pillow,#4C5B71
+255,180,195,站台,platform,#FFB4C3
+106,154,176,运动场,playingfield,#6A9AB0
+230,150,140,铁路,railroad,#E6968C
+60,143,255,河,river,#3C8FFF
+128,64,128,路,road,#804080
+92,82,55,屋顶,roof,#5C5237
+254,212,124,沙，沙滩,sand,#FED47C
+73,77,174,海,sea,#494DAE
+255,160,98,架子,shelf,#FFA062
+255,255,255,雪,snow,#FFFFFF
+104,84,109,楼梯,stairs,#68546D
+169,164,131,帐篷,tent,#A9A483
+225,199,255,毛巾,towel,#E1C7FF
+137,54,74,墙-砖材质,wall-brick,#89364A
+135,158,223,墙-石头材质,wall-stone,#879EDF
+7,246,231,墙-瓷砖材质,wall-tile,#07F6E7
+107,255,200,墙-木质材质,wall-wood,#6BFFC8
+58,41,149,水-其他,water-other,#3A2995
+183,121,142,百叶窗,window-blind,#B7798E
+255,73,97,窗-其他,window-other,#FF4961
+107,142,35,树-合称,tree-merged,#6B8E23
+190,153,153,围栏-合称,fence-merged,#BE9999
+146,139,141,天花板-合称,ceiling-merged,#928B8D
+70,130,180,天空-其他-合称,sky-other-merged,#4682B4
+134,199,156,柜子-合称,cabinet-merged,#86C79C
+209,226,140,桌子-合称,table-merged,#D1E28C
+96,36,108,地面-合称,floor-other-merged,#60246C
+96,96,96,路面-合称,pavement-merged,#606060
+64,170,64,山-合称,mountain-merged,#40AA40
+152,251,152,草地-合称,grass-merged,#98FB98
+208,229,228,泥土--合称,dirt-merged,#D0E5E4
+206,186,171,纸-合称,paper-merged,#CEBAAB
+152,161,64,食品-其他-合称,food-other-merged,#98A140
+116,112,0,建筑-其他-合称,building-other-merged,#747000
+0,114,143,岩石-合称,rock-merged,#00728F
+102,102,156,墙-合称,wall-other-merged,#66669C
+250,141,255,地毯-合称,rug-merged,#FA8DFF
