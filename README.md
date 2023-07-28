@@ -1,14 +1,53 @@
 # 介绍
-这是一个帮助 sketchup 用户使用 stable diffusion 工作流的预处理脚本，可导出给 stable diffusion 使用的图片。
-可一键操作
---导入语义分割图层
---导出当前视图的图片
---导出线稿图
---导出语义分割图 
+这是一个帮助 sketchup 用户使用 stable diffusion 工作流的预处理脚本，可导出给 stable diffusion 使用的图片。脚本支持可一键操作导入语义分割图层、导出当前视图的图片、导出线稿图、导出语义分割图等。 
 
-# 安装
-- 1、将文件【one_click_operation.rb】和文件夹【one_click_operation】拷贝到Plugins文件夹，每个电脑的用户名不同，版本不同。
- 文件夹路径参考（切勿直接复制粘贴）：C:\Users\你的用户名\AppData\Roaming\SketchUp\SketchUp 2020\SketchUp\Plugins
-- 2、重新打开sketchup文件，就可以在拓展里看到插件了。
+# 安装 
+方式一（推荐）：
+- 1、下载 Releases 里的最新版本的.rbz文件，例如 sketchup_pre_4_SD_v1.0.0.rbz 。
+- 2、打开Sketchup，依次点击菜单栏的【窗口】-【扩展程序管理器】，然后点击【安装扩展程序】按钮，找到下载好的.rbz文件进行安装。
 
-注：本脚本在sketchup2020、win10 64位下可以正常使用。
+方式二：
+- 1、同方式一。
+- 2、将.rbz后缀改为.zip，解压。将解压后的文件【one_click_operation.rb】和文件夹【one_click_operation】拷贝到Plugins文件夹，每个电脑的用户名不同，版本不同。
+文件夹路径参考（切勿直接复制粘贴）：C:\Users\你的用户名\AppData\Roaming\SketchUp\SketchUp 2020\SketchUp\Plugins
+- 3、重新打开sketchup文件，就可以在扩展里看到插件了。
+
+# 已测试支持的系统和软件版本
+windows10 X64 + sketchup2020
+
+# 使用方式
+- 1、依次点击菜单栏的【扩展程序】-【一键操作】，可以看到全部的功能。
+- 2、部分功能有单独的工具栏图标，如果安装插件后没有显示，可以依次点击菜单栏的【视图】-【工具栏】，然后勾选“TDXH-toolbar”。
+
+# 功能说明
+## 导入语义分割图层
+### 支持ade20k的150个图层
+### 支持COCO的133个图层
+### 支持六个自定义图层文件。
+如何修改自定义文件：
+- 1、打开自定义文件所在文件夹，路径参考（切勿直接复制粘贴）：C:\Users\你的用户名\AppData\Roaming\SketchUp\SketchUp 2020\SketchUp\Plugins\one_click_operation,
+- 2、用记事本打开custom_1.csv进行编辑,每一行代表一个图层，每一行有 6 列，用英文逗号分隔，6列分别表示颜色的RGB值、中文意思、英文意思、颜色的HEX值。
+建议从ade20k_all_new.csv和COCO_all_new.csv中拷贝需要的行。
+- 3、一共有custom_1.csv 到 custom_6.csv 一共 6 个文件，以供分类图层，适应各种情况。
+
+## 截图
+工具栏显示的是剪刀图标。
+按当前窗口显示，导出png图片。图片宽高限制在2048以下。
+
+## 导出图层颜色
+工具栏显示的是层字图标。
+按图层颜色导出png图片,会新增一个样式，可以删除但不要修改它。图片宽高限制在2048以下。
+
+## 导出线稿
+工具栏显示的是线字图标。
+按黑线白底导出png图片,会新增一个样式，可以删除但不要修改它。图片宽高限制在2048以下。
+
+## 导出图层颜色 + 线稿
+工具栏显示的是点赞图标。
+一键导出图层颜色 + 一键导出线稿 的命令组合，会导出两张图。要多等一会。
+
+## 导出的图片存储位置和命名
+- 图片存储位置
+与sketchup文件同目录下的 image_output 文件夹
+- 图片命名
+sketchup文件名 + 日期 +时间
